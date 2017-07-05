@@ -6,11 +6,18 @@ package com.webtest.app;
 public class PrintAnimals {
 
     public static void main( String[] args ) {
-        String[] Animals = new String[]{"Lion","Tiger","Cheetah", "Leopard", "Puma"};
+        String[] animals = new String[]{"Lion","Tiger","Cheetah", "Leopard", "Puma"};
 
-        for(int i=0;i<5;i++){
-            System.out.println("Animal " + Animals[i]);
+        int i=0;
+        while (i < 5) {
+        System.out.println("Animal " + animals[i]);
+        i++;
         }
+
+        System.out.println();
+
+
+
     }
 
 }
